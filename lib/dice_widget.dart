@@ -13,7 +13,7 @@ class _DiceWidgetState extends State<DiceWidget> {
   void rollDice() {
     setState(() {
       currentdiceface = Random().nextInt(6) + 1;
-      print(currentdiceface);
+      // print(currentdiceface);
     });
   }
 
